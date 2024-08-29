@@ -26,6 +26,13 @@
             tapping-term-ms = <200>;
             bindings = <&kp SQT>, <&kp GRAVE>;
         };
+
+        esc_cl: esc_cl_tabdance {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp ESC>, <&kp CAPS>;
+        };
     };
 
     combos {
@@ -58,7 +65,7 @@
   &kp Q        &kp W       &kp F           &kp P             &kp B      &kp J        &kp L             &kp U           &kp Y       &quo_td
   &hm LCTRL A  &hm LALT R  &hm LEFT_GUI S  &hm LEFT_SHIFT T  &kp G      &kp M        &hm LEFT_SHIFT N  &hm LEFT_GUI E  &hm LALT I  &hm LCTRL O
   &kp Z        &kp X       &kp C           &kp D             &kp V      &kp K        &kp H             &kp COMMA       &kp DOT     &kp FSLH
-                           &kp ESC         &lt 2 SPACE       &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE   &lt 5 DEL
+                           &esc_cl         &lt 2 SPACE       &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE   &lt 5 DEL
             >;
         };
 
