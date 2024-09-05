@@ -62,55 +62,55 @@
 
         COLEMAKDH {
             bindings = <
-  &kp Q        &kp W       &kp F           &kp P             &kp B      &kp J        &kp L             &kp U           &kp Y       &quo_td
-  &hm LCTRL A  &hm LALT R  &hm LEFT_GUI S  &hm LEFT_SHIFT T  &kp G      &kp M        &hm LEFT_SHIFT N  &hm LEFT_GUI E  &hm LALT I  &hm LCTRL O
-  &kp Z        &kp X       &kp C           &kp D             &kp V      &kp K        &kp H             &kp COMMA       &kp DOT     &kp FSLH
-                           &esc_cl         &lt 2 SPACE       &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE   &lt 5 DEL
+                &kp Q        &kp W       &kp F           &kp P             &kp B      &kp J        &kp L             &kp U           &kp Y       &quo_td
+                &hm LCTRL A  &hm LALT R  &hm LEFT_GUI S  &hm LEFT_SHIFT T  &kp G      &kp M        &hm LEFT_SHIFT N  &hm LEFT_GUI E  &hm LALT I  &hm LCTRL O
+                &kp Z        &kp X       &kp C           &kp D             &kp V      &kp K        &kp H             &kp COMMA       &kp DOT     &kp FSLH
+                                        &esc_cl         &lt 2 SPACE       &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE   &lt 5 DEL
             >;
         };
 
         QWERTY {
             bindings = <
-  &kp Q        &kp W       &kp E           &kp R             &kp T      &kp Y        &kp U             &kp I           &kp O       &kp P
-  &hm LCTRL A  &hm LALT S  &hm LEFT_GUI D  &hm LEFT_SHIFT F  &kp G      &kp H        &hm LEFT_SHIFT J  &hm LEFT_GUI K  &hm LALT L  &hm LCTRL SEMICOLON
-  &kp Z        &kp X       &kp C           &kp V             &kp B      &kp N        &kp M             &kp COMMA       &kp DOT     &kp FSLH
-                           &kp ESC         &lt 2 SPACE       &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE   &lt 5 DEL
+                &kp Q        &kp W       &kp E           &kp R             &kp T      &kp Y        &kp U             &kp I           &kp O       &kp P
+                &hm LCTRL A  &hm LALT S  &hm LEFT_GUI D  &hm LEFT_SHIFT F  &kp G      &kp H        &hm LEFT_SHIFT J  &hm LEFT_GUI K  &hm LALT L  &hm LCTRL SEMICOLON
+                &kp Z        &kp X       &kp C           &kp V             &kp B      &kp N        &kp M             &kp COMMA       &kp DOT     &kp FSLH
+                                        &kp ESC         &lt 2 SPACE       &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE   &lt 5 DEL
             >;
         };
 
         NAV {
             bindings = <
-  &trans     &trans     &input_source  &trans     &trans    &trans  &trans    &trans         &trans         &trans
-  &kp LCTRL  &kp LALT   &kp LGUI       &kp LSHFT  &trans    &trans  &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT
-  &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_DOWN  &kp END
-                        &trans         &trans     &trans    &trans  &trans    &trans
+                &trans     &trans     &input_source  &trans     &trans    &trans  &trans    &trans         &trans         &trans
+                &kp LCTRL  &kp LALT   &kp LGUI       &kp LSHFT  &trans    &trans  &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT
+                &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_DOWN  &kp END
+                                        &trans         &trans     &trans    &trans  &trans    &trans
             >;
         };
 
         NUM {
             bindings = <
-  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans  &trans  &trans  &trans
-  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
-  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &trans  &trans  &trans  &trans  &trans
-                     &kp DOT  &kp N0  &kp MINUS    &trans  &trans  &trans
+                &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans  &trans  &trans  &trans
+                &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
+                &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &trans  &trans  &trans  &trans  &trans
+                                    &kp DOT  &kp N0  &kp MINUS    &trans  &trans  &trans
             >;
         };
 
         SYM {
             bindings = <
-  &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC     &trans  &trans  &trans  &trans  &trans
-  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS     &trans  &trans  &trans  &trans  &trans
-  &kp TILDE  &kp EXCL  &kp AT     &kp POUND  &kp PIPE     &trans  &trans  &trans  &trans  &trans
-                       &kp LPAR   &kp RPAR   &kp UNDER    &trans  &trans  &trans
+                &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC     &trans  &trans  &trans  &trans  &trans
+                &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS     &trans  &trans  &trans  &trans  &trans
+                &kp TILDE  &kp EXCL  &kp AT     &kp POUND  &kp PIPE     &trans  &trans  &trans  &trans  &trans
+                                    &kp LPAR   &kp RPAR   &kp UNDER    &trans  &trans  &trans
             >;
         };
 
         Fn {
             bindings = <
-  &kp F12  &kp F7  &kp F8  &kp F9  &trans    &trans  &trans  &trans  &bt BT_CLR    &bt BT_SEL 4
-  &kp F11  &kp F4  &kp F5  &kp F6  &trans    &trans  &trans  &trans  &bt BT_SEL 2  &bt BT_SEL 3
-  &kp F10  &kp F1  &kp F2  &kp F3  &trans    &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1
-                   &trans  &trans  &trans    &trans  &trans  &trans
+                &kp F12  &kp F7  &kp F8  &kp F9  &trans    &trans  &trans  &trans  &bt BT_CLR    &bt BT_SEL 4
+                &kp F11  &kp F4  &kp F5  &kp F6  &trans    &trans  &trans  &trans  &bt BT_SEL 2  &bt BT_SEL 3
+                &kp F10  &kp F1  &kp F2  &kp F3  &trans    &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1
+                                &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
