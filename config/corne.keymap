@@ -52,8 +52,7 @@
         input_source: input_source {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            #bindings = <&tog 1 &kp LC(SPACE)>;
-            bindings = <&kp LC(SPACE)>;
+            bindings = <&tog 1 &kp LC(SPACE)>;
             label = "INPUT_SOURCE";
         };
     };
@@ -61,14 +60,14 @@
     keymap {
         compatible = "zmk,keymap";
 
-#        COLEMAKDH {
-#            bindings = <
-#                &kp Q        &kp W       &kp F           &kp P             &kp B      &kp J        &kp L             &kp U           &kp Y       &quo_td
-#                &hm LCTRL A  &hm LALT R  &hm LEFT_GUI S  &hm LEFT_SHIFT T  &kp G      &kp M        &hm LEFT_SHIFT N  &hm LEFT_GUI E  &hm LALT I  &hm LCTRL O
-#                &kp Z        &kp X       &kp C           &kp D             &kp V      &kp K        &kp H             &kp COMMA       &kp DOT     &kp FSLH
-#                                        &esc_cl         &lt 2 SPACE       &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE   &lt 5 DEL
-#            >;
-#        };
+        COLEMAKDH {
+            bindings = <
+                &kp Q        &kp W       &kp F           &kp P             &kp B      &kp J        &kp L             &kp U           &kp Y       &quo_td
+                &hm LCTRL A  &hm LALT R  &hm LEFT_GUI S  &hm LEFT_SHIFT T  &kp G      &kp M        &hm LEFT_SHIFT N  &hm LEFT_GUI E  &hm LALT I  &hm LCTRL O
+                &kp Z        &kp X       &kp C           &kp D             &kp V      &kp K        &kp H             &kp COMMA       &kp DOT     &kp FSLH
+                                        &esc_cl         &lt 2 SPACE       &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE   &lt 5 DEL
+            >;
+        };
 
         QWERTY {
             bindings = <
@@ -81,7 +80,7 @@
 
         NAV {
             bindings = <
-                &trans     &trans     &input_source  &trans     &trans    &trans  &trans    &trans         &trans         &trans
+                &tog 1     &trans     &input_source  &trans     &trans    &trans  &trans    &trans         &trans         &trans
                 &kp LCTRL  &kp LALT   &kp LGUI       &kp LSHFT  &trans    &trans  &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT
                 &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_DOWN  &kp END
                                         &trans         &trans     &trans    &trans  &trans    &trans
