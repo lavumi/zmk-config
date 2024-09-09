@@ -16,7 +16,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <180>;
             global-quick-tap;
         };
 
@@ -82,7 +81,7 @@
             bindings = <
                 &kp LG(S)  &trans     &input_source  &trans     &tog 1    &trans  &trans    &trans         &trans         &trans
                 &kp LCTRL  &kp LALT   &kp LGUI       &kp LSHFT  &trans    &trans  &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT
-                &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_DOWN  &kp END
+                &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP    &kp END
                                         &trans         &trans     &trans    &trans  &trans    &trans
             >;
         };
