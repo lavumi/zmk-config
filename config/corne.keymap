@@ -80,7 +80,7 @@
 
         NAV {
             bindings = <
-                &tog 1     &trans     &input_source  &trans     &trans    &trans  &trans    &trans         &trans         &trans
+                &kp LG(S)  &trans     &input_source  &trans     &tog 1    &trans  &trans    &trans         &trans         &trans
                 &kp LCTRL  &kp LALT   &kp LGUI       &kp LSHFT  &trans    &trans  &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT
                 &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_DOWN  &kp END
                                         &trans         &trans     &trans    &trans  &trans    &trans
@@ -98,10 +98,10 @@
 
         SYM {
             bindings = <
-                &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC     &trans  &trans  &trans  &trans  &trans
-                &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS     &trans  &trans  &trans  &trans  &trans
-                &kp TILDE  &kp EXCL  &kp AT     &kp POUND  &kp PIPE     &trans  &trans  &trans  &trans  &trans
-                                    &kp LPAR   &kp RPAR   &kp UNDER    &trans  &trans  &trans
+                &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC     &trans  &trans  &trans  &kp LG(MINUS)   &kp LG(PLUS)
+                &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS     &trans  &trans  &trans  &trans          &trans
+                &kp TILDE  &kp EXCL  &kp AT     &kp POUND  &kp PIPE     &trans  &trans  &trans  &trans          &trans
+                                    &kp LPAR   &kp RPAR   &kp UNDER     &trans  &trans  &trans
             >;
         };
 
