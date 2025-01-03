@@ -11,7 +11,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-gif
+    - name: nice-view-gifs
       remote: lavumi
       revision: bongo-cat
   self:
