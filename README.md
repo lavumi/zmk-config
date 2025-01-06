@@ -25,9 +25,9 @@ west zephyr-export
 ```
 
 ``` bash
-west build -p -d build/left -s zmk/app -b nice_nano_v2 -- -DSHIELD="corne_left nice_view_adapter nice_view"
+west build -p -d build/left -s zmk/app -b nice_nano_v2 -- -DSHIELD="corne_left nice_view_adapter nice_view_custom" -DZMK_CONFIG="/workspace/config"
 ```
 
 ``` bash
-west build -p -d build/right -s zmk/app -b nice_nano_v2 -- -DSHIELD="corne_right nice_view_adapter nice_view_custom"
+west build -p -d build/right -s zmk/app -b nice_nano_v2 -- -DSHIELD="corne_right nice_view_adapter nice_view_custom" -DZMK_CONFIG="/workspace/config"
 ```

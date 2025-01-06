@@ -1,0 +1,10 @@
+
+.DS_Store
+/.west
+/zephyr
+/build
+/output
+/modules
+/nice-view-mod
+/zmk
+.vscode/**

@@ -1,0 +1,20 @@
+.PHONY: docker west update left right
+
+docker:
+	docker run --rm -it -v ${PWD}:/workspace zmkfirmware/zmk-build-arm:stable
+
+west:
+	west zephyr-export
+
+update:
+	west update
+
+left:
+	mkdir -p output
+	west build -p -d build/left -s zmk/app -b nice_nano_v2 -- -DSHIELD="corne_left nice_view_adapter nice_view_custom" -DZMK_CONFIG="/workspace/config"
+	cp build/left/zephyr/zmk.uf2 output/left_zmk.uf2
+
+right:
+	mkdir -p output
+	west build -p -d build/right -s zmk/app -b nice_nano_v2 -- -DSHIELD="corne_right nice_view_adapter nice_view_custom" -DZMK_CONFIG="/workspace/config"
+	cp build/right/zephyr/zmk.uf2 output/right_zmk.uf2
