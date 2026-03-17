@@ -47,6 +47,20 @@
             timeout-ms = <50>;
             layers = <0>;
         };
+
+        input_source {
+            bindings = <&kp F16>;
+            key-positions = <30 35>;
+            timeout-ms = <100>;
+            layers = <0 4 5>;
+        };
+
+        input_source_2 {
+            bindings = <&kp F16>;
+            key-positions = <10 32>;
+            timeout-ms = <100>;
+            layers = <0 4 5>;
+        };
     };
 
     //

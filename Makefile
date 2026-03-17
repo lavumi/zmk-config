@@ -9,7 +9,7 @@ west:
 	west zephyr-export
 
 update:
-	west update
+	west updateg 	
 
 output:
 	mkdir -p output
