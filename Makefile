@@ -3,13 +3,17 @@
 docker:
 	docker run --rm -it -v ${PWD}:/workspace zmkfirmware/zmk-build-arm:stable
 
+
+
 west:
 	west init -l config
 	west update
 	west zephyr-export
 
 update:
-	west updateg 	
+	west update
+
+
 
 output:
 	mkdir -p output
